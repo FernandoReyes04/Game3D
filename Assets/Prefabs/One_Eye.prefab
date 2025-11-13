@@ -376,6 +376,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 02b5860000ac7014b99e9c030677215b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2132364838419985079}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 02b5860000ac7014b99e9c030677215b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 224423487106800084}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 02b5860000ac7014b99e9c030677215b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3383865476260092478}
   m_SourcePrefab: {fileID: 100100000, guid: 02b5860000ac7014b99e9c030677215b, type: 3}
 --- !u!1 &5760509962637242513 stripped
 GameObject:
@@ -462,6 +468,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb79666bd749d924c87c2bfba4efe717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 25
-  currentHealth: 0
+  maxHealth: 100
+  currentHealth: 100
   showHealthBar: 1
+--- !u!54 &224423487106800084
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5760509962637242513}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3383865476260092478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5760509962637242513}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 3.7692764, z: 1}
+  m_Center: {x: 0, y: 1.3846382, z: 0}

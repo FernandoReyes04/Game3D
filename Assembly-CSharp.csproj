@@ -49,13 +49,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripits\EnemyAI.cs" />
+    <Compile Include="Assets\Realistic Tree\Demo Scene\Rotate.cs" />
+    <Compile Include="Assets\Realistic Tree\Demo Scene\Buttonscript.cs" />
     <Compile Include="Assets\DoubleL\Demo\DemoCameraController.cs" />
+    <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
     <Compile Include="Assets\Scripits\EnemyHealth.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripits\CameraController.cs" />
     <Compile Include="Assets\Scripits\EnemySpawnManager.cs" />
+    <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\Kevin Iglesias\Characters\Humanoid Giant\Demo Scene\Scripts\HumanoidGiantDemo.cs" />
     <Compile Include="Assets\Scripits\PlayerMove.cs" />
+    <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\JTS_StoneLanterns\_ReadMe.txt" />
+    <None Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

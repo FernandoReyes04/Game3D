@@ -1,0 +1,460 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 15573 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ferna" at "2025-11-14T19:50:46.1400391Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-14T19:50:46Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/ferna/Proyecto/Game3D
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+57752
+-licensingIpc
+LicenseClient-ferna
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ferna/Proyecto/Game3D
+C:/Users/ferna/Proyecto/Game3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13296]  Target information:
+
+Player connection [13296]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1865045645 [EditorId] 1865045645 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JCKR01F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13296]  * "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 1865045645 [EditorId] 1865045645 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JCKR01F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13296] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13296] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 23100, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              0bf2099893e34a67a1ada42f608f298a
+  Correlation Id:          90b3f0bb838537e44411aa706836ba09
+  External correlation Id: 2538121209633128540
+  Machine Id:              ot0+XFDiucx5vwNg2JQWI0HOj0g=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ferna" (connect: 0.00s, validation: 0.00s, handshake: 0.18s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ferna-notifications" at "2025-11-14T19:50:46.3262283Z"
+[Licensing::Module] Licensing Background thread has ended after 0.19s
+Refreshing native plugins compatible for Editor in 252.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.8f1 (c9992ac36c34)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ferna/Proyecto/Game3D/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.7703
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674135729462-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007961 seconds.
+- Loaded All Assemblies, in  0.798 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 1212ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (505ms)
+			TypeCache.Refresh (503ms)
+				TypeCache.ScanAssembly (487ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (355ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.052 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.77 ms, found 3 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Game3D
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.260 seconds
+Domain Reload Profiling: 2306ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (793ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (248ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1002ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (609ms)
+			ProcessInitializeOnLoadMethodAttributes (224ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8078 unused Assets / (5.6 MB). Loaded Objects now: 8775.
+Memory consumption went from 168.0 MB to 162.3 MB.
+Total: 15.354700 ms (FindLiveObjects: 0.782600 ms CreateObjectMapping: 1.027100 ms MarkObjects: 10.385400 ms  DeleteObjects: 3.157600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 45240.571982 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Leaves/Birch/Birch_Leaves_2.mat
+  artifactKey: Guid(444c18f99ff8fba47911492b6c0ac21e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Leaves/Birch/Birch_Leaves_2.mat using Guid(444c18f99ff8fba47911492b6c0ac21e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7862697024dcc1c63a696a6add2088b4') in 0.5723957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic Tree/Source/Models/Spruce/Spruce_Group_1.fbx
+  artifactKey: Guid(df8a6aaf352648447afd2d4501297331) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Spruce/Spruce_Group_1.fbx using Guid(df8a6aaf352648447afd2d4501297331) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97aad4130d323c9ce5f92776b0d6a8b8') in 0.1546979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/Standard/Chestnut_Single.mat
+  artifactKey: Guid(7825b68992e566e41992571c46f6fc1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Falling Leaves/Standard/Chestnut_Single.mat using Guid(7825b68992e566e41992571c46f6fc1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09941f716625c802cb7985982c0e317e') in 0.054427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch 3.prefab
+  artifactKey: Guid(dad071d6bb455bd4ea32d2b486ffeae1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch 3.prefab using Guid(dad071d6bb455bd4ea32d2b486ffeae1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '213798a39780b8eb804276d1581488a0') in 0.2699455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 5.prefab
+  artifactKey: Guid(5c12347a16d26c54581c374aee9a306f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 5.prefab using Guid(5c12347a16d26c54581c374aee9a306f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b2d08376af47fea803b5386ca078db0') in 0.1196081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Ash/Ash 5.prefab
+  artifactKey: Guid(396e4e2bcb4c3374c90c240769020c51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Ash/Ash 5.prefab using Guid(396e4e2bcb4c3374c90c240769020c51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '662c354d6bb2ee5b1d585aa99bdf536c') in 0.1166444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Birch
+  artifactKey: Guid(998f04e9b7a46b14db7be2c1cfeb546f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Birch using Guid(998f04e9b7a46b14db7be2c1cfeb546f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90c3b577720b540af50cb56e21d22b1b') in 0.0221747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_1.mat
+  artifactKey: Guid(bc4924934355f504cb3552ca20bf84af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Spruce/Spruce_1.mat using Guid(bc4924934355f504cb3552ca20bf84af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '908a1c380403d12a86ed03097254062b') in 0.0394276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Ash/The Great Ash Tree.prefab
+  artifactKey: Guid(366edcb6f8acaa24a959e7f443a4f60e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Ash/The Great Ash Tree.prefab using Guid(366edcb6f8acaa24a959e7f443a4f60e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5a449c7369e3181a49cd52c247d54d6') in 0.0784788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 7.prefab
+  artifactKey: Guid(9bae0067de92b6d44b82e8c16026ddba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 7.prefab using Guid(9bae0067de92b6d44b82e8c16026ddba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0cff1c9e4110436322897d1f99f3cec') in 0.0813712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Birch_Single.png
+  artifactKey: Guid(d11f31635d26b984aa2d5bfb6876348b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Falling Leaves/Birch_Single.png using Guid(d11f31635d26b984aa2d5bfb6876348b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9468217fc631bc88b3570b032a9a9338') in 0.1455997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic Tree/Source/Textures/Birch/Leaf_1.png
+  artifactKey: Guid(d1a697a303d76cd4cb4eca86a30400ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Textures/Birch/Leaf_1.png using Guid(d1a697a303d76cd4cb4eca86a30400ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cff19356cf3d08a96fc754f4b7ec270') in 0.03549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Realistic Tree/Source/Models/Birch/Birch_Group_1.fbx
+  artifactKey: Guid(55310037ded0f0e4b8240e7c493a41aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Birch/Birch_Group_1.fbx using Guid(55310037ded0f0e4b8240e7c493a41aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6b0118f9d51db13fda833f673c27971') in 0.0500168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 8.prefab
+  artifactKey: Guid(f0a8b3e95a0d98440a39b75573742022) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Birch/Birch 8.prefab using Guid(f0a8b3e95a0d98440a39b75573742022) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5d12592a620304c01c520b40eecdee5') in 0.081162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 1.prefab
+  artifactKey: Guid(00504f464b42d1d45a2dc24ba9eade1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Weeping Willow/Weeping_Willow 1.prefab using Guid(00504f464b42d1d45a2dc24ba9eade1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0a5337322e9cccdabc63fd2291d2209') in 0.0665565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Ash/Ash 1.prefab
+  artifactKey: Guid(b705299bf721f4a4083e5c4f318c85f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Ash/Ash 1.prefab using Guid(b705299bf721f4a4083e5c4f318c85f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57915ac5a975358484102372b32dffae') in 0.0779668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic Tree/Source/Models/Birch/Birch_Group_3.fbx
+  artifactKey: Guid(3e5c51c54b943b44e9737f15de63716b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Models/Birch/Birch_Group_3.fbx using Guid(3e5c51c54b943b44e9737f15de63716b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af0ab5bbc491cdf3afcdb461a5dafe24') in 0.0536612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 2.prefab
+  artifactKey: Guid(344b4997359314249a9ba7a1f1d0f876) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Spruce/Spruce 2.prefab using Guid(344b4997359314249a9ba7a1f1d0f876) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb6ee8b6f9fce56a78b80755effa2595') in 0.0265735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 9.prefab
+  artifactKey: Guid(8b2cbae733adeae48a1b1a1aa7e71f43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Birch/Birch 9.prefab using Guid(8b2cbae733adeae48a1b1a1aa7e71f43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d6c19744512e26ff2abfaafd1849df4') in 0.0714847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Birch/Birch 7.prefab
+  artifactKey: Guid(a6b5ce7010c086147a5219bec6747282) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Birch/Birch 7.prefab using Guid(a6b5ce7010c086147a5219bec6747282) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d569196a34973694e1675b032dc6e8b') in 0.0724491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_3.mat
+  artifactKey: Guid(1108f40d5bfa65f4aa6ce317759d09c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/URP/Leaves/Chestnut/Chestnut_3.mat using Guid(1108f40d5bfa65f4aa6ce317759d09c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fa85678b13b24e9e1c966824a588d3a') in 0.0304023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Weeping Willow/Weeping_Willow 8.prefab
+  artifactKey: Guid(1b52bae7d0bbb564da85b5fcdcc5b3da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Weeping Willow/Weeping_Willow 8.prefab using Guid(1b52bae7d0bbb564da85b5fcdcc5b3da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16b616070c874a985fa277b6c6e40a31') in 0.0804987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Realistic Tree/Source/Materials/Standard/Leaves/Ash/Ash_Leaves_2.mat
+  artifactKey: Guid(77bc69597fdb1cd4694f11248647fa6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/Standard/Leaves/Ash/Ash_Leaves_2.mat using Guid(77bc69597fdb1cd4694f11248647fa6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d4740c8af3492a1e0c17cb057ac23e4') in 0.0358524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce Group 2.prefab
+  artifactKey: Guid(050388e419c7ce5448a238b470cedaba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/Standard/Spruce/Spruce Group 2.prefab using Guid(050388e419c7ce5448a238b470cedaba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fef1adcf176a0b0baf5f185e446273c') in 0.0493518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 3.prefab
+  artifactKey: Guid(f3eefa452c5e31a4982e3e0d71adcaec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Spruce/Spruce 3.prefab using Guid(f3eefa452c5e31a4982e3e0d71adcaec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cca1ac78549ce7c6d4f32e174f22dbd9') in 0.0321587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 6.prefab
+  artifactKey: Guid(f9052794f974d9d4b92e68092ab92529) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/HDRP/Weeping Willow/Weeping_Willow 6.prefab using Guid(f9052794f974d9d4b92e68092ab92529) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd989da43ef9c2cca6941e43906cb3be2') in 0.0667304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Chestnut/Chestnut_Flower.mat
+  artifactKey: Guid(71c4c072159247e45b5a91baf0e278ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Source/Materials/HDRP/Leaves/Chestnut/Chestnut_Flower.mat using Guid(71c4c072159247e45b5a91baf0e278ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a65907c6e1497c8c3e8921902bdb27a') in 0.0362041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 8.prefab
+  artifactKey: Guid(c4b1d2c471aaff04898b4c566e7d08f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Realistic Tree/Prefabs/URP/Chestnut/Chestnut 8.prefab using Guid(c4b1d2c471aaff04898b4c566e7d08f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93ee890196379535c130a901308b779f') in 0.1246121 seconds
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

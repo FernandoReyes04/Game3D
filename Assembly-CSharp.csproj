@@ -53,9 +53,11 @@
     <Compile Include="Assets\StylizedCharacter\Scripts\Attributes\BodyPartNameAttribute.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Enums\TextureType.cs" />
     <Compile Include="Assets\Scripits\EnemyAI.cs" />
+    <Compile Include="Assets\Realistic Tree\Demo Scene\Rotate.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Containers\BoneTarget.cs" />
     <Compile Include="Assets\StylizedCharacter\Tools\ConvertMaterialsToURP.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\NHCharacterController\NHCharacterController.cs" />
+    <Compile Include="Assets\Realistic Tree\Demo Scene\Buttonscript.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Enums\ItemCategory.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\NHCharacterController\CharacterInput.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Enums\Gender.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="Assets\StylizedCharacter\Scripts\Enums\ItemCategoryString.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\NHAvatar.cs" />
     <Compile Include="Assets\Scripits\WeaponPickUp.cs" />
+    <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Wrappers\MaterialMapper.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Containers\ItemCache.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\NHCharacterController\CharacterSettings.cs" />
@@ -105,6 +108,11 @@
     <Compile Include="Assets\StylizedCharacter\Scripts\Wrappers\ItemWrapperHandler.cs" />
     <Compile Include="Assets\Scripits\PlayerMove.cs" />
     <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\JTS_StoneLanterns\_ReadMe.txt" />
+    <None Include="Assets\Modular Castle\Castle_ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

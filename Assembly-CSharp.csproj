@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripits\CameraController.cs" />
     <Compile Include="Assets\Scripits\EnemySpawnManager.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Utils\UtilsAssets.cs" />
+    <Compile Include="Assets\Scripits\EnemyRanged.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Wrappers\BodypartWrapper.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\NHCharacterController\CharacterAnimator.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Enums\ItemTypeEnum.cs" />
@@ -100,7 +101,9 @@
     <Compile Include="Assets\StylizedCharacter\Scripts\Wrappers\MaterialMapper.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Containers\ItemCache.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\NHCharacterController\CharacterSettings.cs" />
+    <Compile Include="Assets\Scripits\PlayerHealth.cs" />
     <Compile Include="Assets\Scripits\Weapon.cs" />
+    <Compile Include="Assets\Scripits\Projectile.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Wrappers\GameObjectByBoneTypeWrapper.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\NHCharacterController\CharacterEngine.cs" />
     <Compile Include="Assets\StylizedCharacter\Scripts\Utils\UtilsAttributes.cs" />

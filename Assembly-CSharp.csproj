@@ -65,6 +65,7 @@
   <ItemGroup>
     <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\JTS_StoneLanterns\_ReadMe.txt" />
+    <None Include="Assets\Modular Castle\Castle_ReadMe.txt" />
     <None Include="Assets\Grass And Flowers Pack 1\Example Scene\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <ItemGroup>
